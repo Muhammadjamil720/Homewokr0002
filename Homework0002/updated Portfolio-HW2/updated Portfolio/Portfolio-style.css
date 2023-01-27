@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    background: black;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 30px;
+    height: 25vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(228, 213, 213);
+    font-weight: bold ;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.Intro{
+    margin-left: 8%;
+    margin-top: 13%;
+    height: 50vh;
+
+}
+.Intro h1{
+    
+    font-size: 60px;
+    color: black;
+    margin-bottom:20;           
+}
+.Intro h2{
+    
+    font-size: 40px;
+    color: black;
+    margin-bottom:20;   
+            
+}
+
+
+
+span{
+    color: rgb(238, 108, 1);
+}
+
+.Intro p{
+    color: rgb(38, 43, 41);
+    line-height: 23px;
+    font-size: 20px;
+}
+
+.Intro a {
+    background-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+h3{
+    margin-left: 8%;
+    margin-top: -10%;
+    height: 10vh;
+    font-size: 60px;
+    color: rgb(207, 73, 11);
+    margin-bottom:20; 
+}
+img{
+    
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#Contact{
+    
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    margin-bottom:20;    
+    font-weight: bold ;       
+}
+section nav p {
+    width: 100%;
+    text-align: center;
+    padding: 30px 50px;
+    text-underline-offset: 5px;
+    text-decoration: underline;
+   
+}
+
